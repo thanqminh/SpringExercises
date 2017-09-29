@@ -14,7 +14,6 @@
 		<h1>List Book</h1>
 		<hr />
 		<a th:href="@{/books/new}">New Book</a><br/><br/>
-		
 		<table class="table">
 			<thead>
 				<tr>
@@ -32,7 +31,6 @@
 					<td>
 							<a th:href="@{/books/{id}(id = ${book.id})}">Show</a> 
 					 		<a th:href="@{/books/{id}/edit(id = ${book.id})}">Edit</a> 
-							<a href="#">Destroy</a> 
 					</td>
 				</tr>
 			</tbody>
